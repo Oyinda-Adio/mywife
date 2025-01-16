@@ -59,6 +59,35 @@ p {
     color: #555;
 }
 
+/* Hyperlink Styling */
+a {
+    margin-top: 1.5rem;
+    display: inline-block; /* Makes it behave like a button */
+    text-decoration: none; /* Removes underline */
+    color: white; /* Text color */
+    background: #f4978e; /* Nice pinkish background */
+    padding: 0.5rem 1rem; /* Adds space inside the button */
+    border-radius: 25px; /* Rounds the corners */
+    font-size: 1rem; /* Adjusts font size */
+    font-weight: bold; /* Makes the text bold */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: background 0.3s ease, transform 0.3s ease; /* Adds hover effect */
+}
+
+/* Hover and Focus Effects */
+a:hover,
+a:focus {
+    background: #d64545; /* Changes background on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+/* Active State */
+a:active {
+    background: #a83232; /* Darkens the background when clicked */
+    transform: scale(0.95); /* Shrinks slightly to show a press effect */
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
