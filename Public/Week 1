@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Notes to My Wife</title>
-    <link rel="stylesheet" href="./style2.css"  />
+    <link rel="stylesheet" href="../style2.css"  />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
@@ -14,12 +14,13 @@
 </head>
 <body>
         <div>
-        <img src="./Assets/Images/HomePage.jpg" />
+        <img src="../Assets/Images/Passport.jpg" />
         <hr >
-        <h1>This is dedicated to <br/>My Wonderful & Troublesome Wife</h1>
-        <p id="wifename">- IFEOLUWA </p>
-        <p>THANK YOU for ALL THAT YOU DO</p>
-        <p><a href="./Public/week1.html">Read Week 1 Note</a></p>
+        <h1>I LOVE YOUR LARGE HEART  &#10084;</h1>
+        
+        <p>Your warmth and generosity are gifts that make life more beautiful.
+            <br />Not everyone has the courage to love and care as deeply as you do.</p>
+        <!--<p><a href="./Public/week1.html">Read Week 1 Note</a></p> -->
     </div>
 </body>
 </html>

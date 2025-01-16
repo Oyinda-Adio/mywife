@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive, 'Racing Sans One', sans-serif;
+    background: linear-gradient(to bottom right, #f9e5e5, #ffe7c9);
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wrapper for Content */
+div {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading Styling */
+h1 {
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 2rem;
+    color: #d64545;
+    margin-bottom: 1rem;
+}
+
+/* Wife's Name */
+#wifename {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f4978e;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
